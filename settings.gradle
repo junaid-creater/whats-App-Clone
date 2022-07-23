@@ -1,0 +1,2 @@
+rootProject.name='Whats Up'
+include ':app'

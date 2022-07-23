@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "362793673065",
+    "firebase_url": "https://whats-up-f41cb.firebaseio.com",
+    "project_id": "whats-up-f41cb",
+    "storage_bucket": "whats-up-f41cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362793673065:android:8bd688a54ddbe35f3e5df8",
+        "android_client_info": {
+          "package_name": "com.example.whatsup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362793673065-mbvntv0l2u05rahckvbegeo5chiovktv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsup",
+            "certificate_hash": "41c2319dba35b774eda581a07107c42547435166"
+          }
+        },
+        {
+          "client_id": "362793673065-1vjptrj1vt737p16akkq79a5fr9uinu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsup",
+            "certificate_hash": "f598042ae8ffe4618c8fd50da31d5281908d6be4"
+          }
+        },
+        {
+          "client_id": "362793673065-895907k44qsf4aahf6gugqobqd7voijl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsup",
+            "certificate_hash": "1887c5bc67e819817e01f259031f7d89bb54df90"
+          }
+        },
+        {
+          "client_id": "362793673065-a2mgh3n7b7v19beq54ri207vrhoaq77s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ3EtcMNsUJYahSMVCW-Y6svGeR-zuYIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362793673065-a2mgh3n7b7v19beq54ri207vrhoaq77s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

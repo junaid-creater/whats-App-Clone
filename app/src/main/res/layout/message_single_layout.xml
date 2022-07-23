@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/msg_single_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/reciever_single_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/reciever_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/reciever_single_image"
+        android:background="@drawable/message_text_background"
+        android:hint="reciever message"
+        android:padding="10dp"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:id="@+id/sender_img_mesg"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/reciever_img_mesg"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/reciever_single_image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/sender_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="@+id/reciever_msg_text"
+        android:background="@drawable/current_user_message_layout"
+        android:text="sender Messages"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="17dp" />
+    <TextView
+        android:gravity="right"
+        android:id="@+id/reciever_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_toEndOf="@id/reciever_single_image"
+        android:layout_below="@+id/reciever_img_mesg"
+        android:text="08:21 AM - Aug 03,2020"
+        android:padding="2dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/sender_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/sender_img_mesg"
+        android:text="08:21 AM - Aug 03,2020"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginEnd="20dp"
+        android:padding="2dp"
+        />
+
+</RelativeLayout>
